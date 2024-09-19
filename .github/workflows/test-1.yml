@@ -33,3 +33,9 @@ jobs:
             - name: LS
               run: |
                 ls -al
+
+            - name: Setup Node.js enviroment
+              uses: actions/setup-node@v4.0.3
+
+            - name: node version
+              run: node --version
