@@ -36,7 +36,7 @@ jobs:
 
             - name: Setup Node.js enviroment
               uses: actions/setup-node@v4.0.3
-              whith:
+              with:
                 node-version: latest
 
             - name: node version
